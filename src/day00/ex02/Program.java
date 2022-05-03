@@ -15,7 +15,7 @@ public class Program {
                 res += prime % 10;
                 prime /= 10;
             }
-            if (res == 1 || res == 0)
+            if (res <= 1)
                 continue;
             for (int del = 2; del < res; ++del)
             {

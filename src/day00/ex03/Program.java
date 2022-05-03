@@ -52,14 +52,12 @@ public class Program {
             res += dig;
             ++iter;
         }
-//        System.out.println(res);
         int i = 1;
         while (res != 0)
         {
             long num = 0;
             num = res % 10;
             res /= 10;
-//            System.out.print("Week " + i + " ");
             System.out.print("Week ");
             System.out.print(i);
             System.out.print(" ");
